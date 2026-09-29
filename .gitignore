@@ -1,0 +1,63 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyd
+.python-version
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Notebook and ML artifacts
+artifacts/
+checkpoints/
+checkpoint-*/
+results/
+logs/
+wandb/
+mlruns/
+toxic_detector/
+pii_masking_model*/
+*.pt
+*.pth
+*.ckpt
+*.bin
+*.safetensors
+
+# Downloaded datasets and caches
+.cache/
+data/
+datasets/
+models/
+*.arrow
+*.parquet
+
+# Packaging and tooling
+build/
+dist/
+*.egg-info/
+.idea/
+.vscode/
+
+# Operating systems
+.DS_Store
+Thumbs.db
+Desktop.ini
